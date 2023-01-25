@@ -2,7 +2,7 @@
 body{
     font-family: 'montserrat',sans-serif;
     color: white;
-    background-image: url('image.jpg');
+    background-image: url('../asset/image.jpg');
     background-size: cover;
     height: 100vh;   
 }
