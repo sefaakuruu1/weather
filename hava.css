@@ -1,0 +1,69 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    font-family: 'montserrat',sans-serif;
+    color: white;
+    background-image: url('image.jpg');
+    background-size: cover;
+    height: 100vh;   
+}
+
+.app{
+    margin: auto;
+    display: flex;
+    flex-direction: column; /*alt alta yazmayı saglar*/
+    align-items: center;
+    justify-content: center;
+    background:rgba(0,0,0,.6);/* arka planı seffaflastırmaya yarar*/
+    height: 100vh;
+}
+.header{
+    padding: 0vh 10vh 10vh 10vh;
+}
+.header h1{
+    font-size: 5vh;
+    color: yellow;
+    margin-bottom: 3vh ;
+    text-shadow: 3px 3px rgba(0,0,0,.1);
+}
+.header input{
+    text-align: center;
+    width: 20vh;
+    font-size: 2vh;
+    padding: 1vh 2vh 1vh 2vh;
+    display: flex;
+    margin: auto;
+    border: 0;
+    background: transparent;
+    color: white;
+    outline:0;
+    border-bottom: 2px solid red;
+}
+
+content{
+    margin: auto;
+    display: flex;
+    column-gap: 5vh;
+}
+.city{
+    font-size: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.temp{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 6vh;
+}
+.desc{
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.minmax{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+}
