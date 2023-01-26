@@ -22,10 +22,10 @@ const displayResult=(result)=>{
     let temp=document.querySelector('.temp')
      temp.innerText=`${result.main.temp}°C`
     let desc=document.querySelector('.desc')
-    desc.innerText=`${result.weather[0].desription}`
+    console.log(result.weather[0].description)
+    desc.innerText=result.weather[0].description;
     let minmax=document.querySelector('.minmax')
-    minmax.innerText=`${result.main.temp_min}°C/
-    ${result.main.temp_max}°C`
+    minmax.innerText=`${result.main.temp_min}°C/${result.main.temp_max}°C`
 }
 
 const searchBar=document.getElementById('searchbar')
